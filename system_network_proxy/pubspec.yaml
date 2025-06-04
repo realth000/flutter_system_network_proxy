@@ -35,11 +35,6 @@ flutter:
   # adding or updating assets for this project.
   plugin:
     platforms:
-      android:
-        package: com.liudonghua.system_network_proxy
-        pluginClass: SystemNetworkProxyPlugin
-      ios:
-        pluginClass: SystemNetworkProxyPlugin
       web:
         default_package: system_network_proxy_web
       linux:
