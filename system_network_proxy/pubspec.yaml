@@ -10,11 +10,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  system_network_proxy_platform_interface: ^1.0.0
-  system_network_proxy_web: ^1.0.0
-  system_network_proxy_linux: ^1.0.0
-  system_network_proxy_macos: ^1.0.0
-  system_network_proxy_windows: ^1.0.0
+  system_network_proxy_platform_interface:
+    path: ../system_network_proxy_platform_interface
+  system_network_proxy_web:
+    path: ../system_network_proxy_web
+  system_network_proxy_linux:
+    path: ../system_network_proxy_linux
+  system_network_proxy_macos:
+    path: ../system_network_proxy_macos
+  system_network_proxy_windows:
+    path: ../system_network_proxy_windows
 
 dev_dependencies:
   flutter_test:

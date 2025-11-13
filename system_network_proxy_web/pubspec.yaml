@@ -12,7 +12,8 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  system_network_proxy_platform_interface: ^1.0.0
+  system_network_proxy_platform_interface:
+    path: ../system_network_proxy_platform_interface
   meta: ^1.1.7
 
 dev_dependencies:
